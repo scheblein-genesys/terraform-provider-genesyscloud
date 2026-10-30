@@ -60,6 +60,7 @@ func buildContactListFilterClauses(clauses []interface{}) *[]platformclientv2.Co
 }
 
 func buildContactListFilterPredicate(predicates []interface{}) *[]platformclientv2.Contactlistfilterpredicate {
+	// hi mom
 	if predicates == nil || len(predicates) == 0 {
 		return nil
 	}
